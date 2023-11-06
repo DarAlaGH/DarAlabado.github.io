@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -18,9 +19,9 @@
 			<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
-					<div id="intro">
-						<h1>Darlyn Alabado Portfolio</h1>
-						<p>Dedicated IT student equipped with certifications bringing a blend of hands-on experience in desktop support, leadership and a commitment to staying current with evolving technologies <a href="https://www.linkedin.com/in/darlyna/">@darlyna</a>
+					<div id="intro"> 
+						<h1>Darlyn Alabado</h1>
+						<p> As a dedicated student, I am passionately cultivating my skills in SQL, driven by a profound interest in data analysis and database management. <a href="https://www.linkedin.com/in/darlyna/">@darlyna</a>
 						</a></p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -29,13 +30,13 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Darlyn Alabado</a>
+						<a class="logo">Welcome</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
+							<li class="active"><a >Projects</a></li>
 							
 						</ul>
 						<ul class="icons">
@@ -50,65 +51,63 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									
-									<h2><a href="#">SQL PROJECT<br />
-									</a></h2>
-									<p>Data Cleaning and Data Exploration using SQL</p>
+									<h1>My First SQL PROJECT </h1>
+									<p> I have successfully finished my first SQL project using MySQL, where I analyzed a dataset drawn from four databases, extracting data like customers, orders, and products. In this project, I tackled various exercises and included some queries that I used.
+									</p>	
 								</header>
-								<a href="#" class="image main"><img src="images/octavian-dan-b21Ty33CqVs-unsplash.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">View Project</a></li>
-								</ul>
 							</article>
 
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
-										
-										<h2><a href="#">SQL project 1<br />
-										</a></h2>
+										<h2>Retrieving Customers data from the database</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg" alt="" /></a>
-									<p>In this project, I am showing you Covid related issue.</p>
+									<!-- Image with a hyperlink only on the text -->
+									<a class="image fit">
+										<img src="images/sql project/1. retriev data.png" alt="">
+									</a>
+
+									<p>In this project, I used the sql_store database. I used the SELECT * to extract all the customers data and used FROM customers table to pull all the customers informations.</p>
+									
 									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
+										<li><a href="retrieve_secondpage.html" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="https://public.tableau.com/app/profile/darlyn.alabado/vizzes">Tableau<br />
+										<h2>Sorting Customers by their last name<br />
 										</a></h2>
 									</header>
-									<a href="https://public.tableau.com/app/profile/darlyn.alabado/vizzes" class="image fit"><img src="images/clay-banks-_Jb1TF3kvsA-unsplash.jpg" alt="" /></a>
-									<p>In this project, I'll show you my visualization.</p>
+									<a class="image fit"><img src="images/sql project/2. sorting C by last name.png" alt="" /></a>
+									<p>Here, I used SELECT * to select all then used FROM customers to pull it from the customers table and added ORDER BY last_name to sort it's last name alphabetically.</p>
 									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/darlyn.alabado/vizzes" class="button">View Project</a></li>
+										<li><a href="sorting_secondpage.html" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="#">Excel<br />
+										<h2>List of all the orders placed<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="" /></a>
-									<p>Showing you my Excel project</p>
+									<a class="image fit"><img src="images/sql project/WHERE clause.png" alt="" /></a>
+									<p>I used SELECT * to choose all and used FROM orders to extract data from the Orders table then added WHERE order_date to only pull data based on their order dates</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
+										<li><a href="gettingorders_secondpage.html" class="button">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="#">Github <br />
+										<h2>Finding a specific item<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/rubaitul-azad-HLQDfaJUTVI-unsplash.jpg" alt="" /></a>
-									<p>This is my Github page account.</p>
+									<a class="image fit"><img src="images/sql project/and or not result.png" alt="" /></a>
+									<p>I used SELECT *, FROM order_items, WHERE order_id = 6 added AND unit_price * quantity > 30</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
+										<li><a href="gettingitems_secondpage.html" class="button">View Project</a></li>
 									</ul>
 								</article>
 
